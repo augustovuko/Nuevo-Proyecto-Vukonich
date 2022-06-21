@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(227, 222, 201);
+}
+
+.body1{
+    background-image: url(../img/render-main2.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.body {
+    background-image: url(/img/render.jpg);
+}
+
+.main {
+    height: 100%;
+    width: 100;
+    background-color: white;
+}
+
+.main-e{
+    background-color: rgb(227, 222, 201);;
+    padding-top: 150px;
+}
+
+.main-e div h1{
+    display: flex;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.main-e div address{
+    padding-left: 31px;
+}
+
+.main-e div p{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 60px;
+}
+
+.foto-estudio img{
+    display: inline-block;
+    max-width: 1000px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+
+}
+.nuestro-proceso {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "subtitulo parrafo";
+      padding-bottom: 50px;
+      padding-right: 60px;
+  }
+  
+  .subtitulo { 
+    grid-area: subtitulo;  
+    text-align: center;
+    
+ }
+
+ .nuestro-proceso .subtitulo{
+    font-size: 30px;
+ }
+  
+  .desc p{ 
+    font-size: 20px;
+    grid-area: parrafo;
+    padding: 40px;
+    line-height: 1rem;
+    text-align: left;
+ }
+  
+
+.byld a {
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+.container-fluid {
+
+    font-size: 30px;
+}
+
+.formulario {
+    display: block;
+    padding-left: 40px;
+    padding-bottom: 250px;
+
+}
+
+.formulario input {
+    width: 20%;
+}
+
+.formulario .email {
+    padding-top: 150px;
+
+}
+
+.formulario .form-label {
+    font-size: 25px;
+}
+
+.mb-3 .form-label {
+    color: white;
+}
+
+.mb-3 .form-control {
+    padding-right: 30px;
+
+}
+
+.parrafo {
+    background-color: white;
+    opacity: 0.7;
+    width: 50%;
+    display: block;
+    margin-left: 600px;
+    margin-top: -200px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-inner {
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+}
+
+
+.manifiesto h2 {
+    font-size: 20px;
+}
+
+.manifiesto h3 {
+    font-size: 35px;
+}
+
+.obras-s h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.foto1 img {
+    float: right;
+    margin: 50px;
+    background-color: black;
+    display: flex;
+}
+
+
+.foto1 img:hover {
+    transition: 0.5s;
+    filter: brightness(50%);
+}
+
+.foto2 img {
+    padding: 50px;
+}
+
+.foto2 img:hover {
+    transition: 0.5s;
+    filter: brightness(50%);
+}
+
+.foto3 img {
+    padding: 50px;
+}
+
+.foto3 img:hover {
+    transition: 0.5s;
+    filter: brightness(50%);
+}
+
+.foto4 img {
+    float: right;
+    padding: 50px;
+}
+
+.foto4 img:hover {
+    transition: 0.5s;
+    filter: brightness(50%);
+}
+
+.footer {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "footer footer footer";
+      background-color: rgb(151, 151, 151);
+  }
+  
+  .contenido-f{
+    padding: 40px;
+  }
+
+  .contenido-f ul{
+    list-style: none;
+  }
+
+  .contenido-f ul li a{
+    text-decoration: none;
+    color: black;
+    margin: -30px;
+  }
+
+  .pie{
+    background-color: rgb(73, 73, 73);
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+  .pie p{
+    padding-top: 10px;
+  }
